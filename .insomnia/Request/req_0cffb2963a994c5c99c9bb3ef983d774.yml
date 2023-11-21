@@ -1,0 +1,27 @@
+_id: req_0cffb2963a994c5c99c9bb3ef983d774
+type: Request
+parentId: fld_fad395cf11db47fabe698e0bea7d0025
+modified: 1700520620337
+created: 1700518952291
+url: "{{ _.url }}/user/edit"
+name: Edit User
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Nomber",
+    	"image": ""
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1698286123992.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

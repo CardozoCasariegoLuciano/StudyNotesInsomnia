@@ -1,0 +1,23 @@
+_id: req_2611c643b8b54351928114f99b3adeed
+type: Request
+parentId: fld_fad395cf11db47fabe698e0bea7d0025
+modified: 1700608394870
+created: 1699327903028
+url: "{{ _.url }}/user/all"
+name: List all
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1698286522408.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

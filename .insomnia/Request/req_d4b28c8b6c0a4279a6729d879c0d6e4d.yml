@@ -1,0 +1,23 @@
+_id: req_d4b28c8b6c0a4279a6729d879c0d6e4d
+type: Request
+parentId: fld_fad395cf11db47fabe698e0bea7d0025
+modified: 1700516643607
+created: 1700516552548
+url: "{{ _.url }}/user/22"
+name: Find user by ID
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1698285725576.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

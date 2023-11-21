@@ -1,0 +1,18 @@
+_id: ut_ccb8d69466f14fd081c153e2a15b5f0d
+type: UnitTest
+parentId: uts_ecbdb3bd8aa84b7b95084108a09df526
+modified: 1700610394586
+created: 1700609996799
+requestId: req_84d235e99abb4e8697a581ac4c4b2da9
+name: Validate JSON response
+code: |
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  const item = body;
+  console.log(item)
+
+  expect(item.data).to.be.an('object');
+  expect(item.message).to.be.an('string');
+  expect(item.messageType).to.be.an('string');
+
+  expect(item.data).to.have.property('user');

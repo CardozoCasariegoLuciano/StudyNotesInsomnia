@@ -1,0 +1,25 @@
+_id: req_4cee3efddb624015899943f51fd16751
+type: Request
+parentId: fld_3b36236bbd624d7fb86ec371902a0685
+modified: 1700347989134
+created: 1700347981841
+url: "{{ _.url }}/auth/logout"
+name: Logout User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1697167684363.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_84d235e99abb4e8697a581ac4c4b2da9
+type: Request
+parentId: fld_3b36236bbd624d7fb86ec371902a0685
+modified: 1700514942305
+created: 1699668178303
+url: "{{ _.url }}/auth/login"
+name: Login User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password":"123123",
+    	"email":"norber@test.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1697539567935.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

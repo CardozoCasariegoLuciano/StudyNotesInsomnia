@@ -1,0 +1,23 @@
+_id: req_99a49b93e2e149d1a2b4a40b7562a9de
+type: Request
+parentId: fld_fad395cf11db47fabe698e0bea7d0025
+modified: 1700513928612
+created: 1700513922435
+url: "{{ _.url }}/user/me"
+name: userLoged
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1698284928743.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

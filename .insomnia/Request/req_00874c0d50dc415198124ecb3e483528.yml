@@ -1,0 +1,31 @@
+_id: req_00874c0d50dc415198124ecb3e483528
+type: Request
+parentId: fld_3b36236bbd624d7fb86ec371902a0685
+modified: 1700515068859
+created: 1698283335079
+url: "{{ _.url }}/auth/register"
+name: Registe User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "name": "Norverto",
+    	"password":"123123",
+    	"email":"noerber@test.com",
+    	"confirmation":"123123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1698283335079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
